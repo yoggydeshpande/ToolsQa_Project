@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+  <test name="Test" thread-count="5">
+    <classes>
+      <class name="TestScripts.Buttons"/>
+      <class name="TestScripts.Forms"/>
+      <class name="TestScripts.DownloadAndUpload"/>
+      <class name="TestScripts.BookStoreApplication"/>
+      <class name="TestScripts.Links"/>
+      <class name="TestScripts.DynamicProperties"/>
+      <class name="TestScripts.Broken_Links_And_Images"/>
+      <class name="TestScripts.Widgets"/>
+      <class name="TestScripts.RadioButton"/>
+      <class name="TestScripts.Interactions"/>
+      <class name="TestScripts.TestOne_TextBox"/>
+      <class name="TestScripts.CheckBox"/>
+      <class name="TestScripts.WebTables"/>
+      <class name="TestScripts.Alert_Frames_Windows"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
